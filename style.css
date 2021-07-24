@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-black: rgb(0, 0, 0);
+}
+
+.navigation {
+    height: auto;
+    padding: 1%;
+}
+
+.logoImg {
+    float: left;
+    width: 9%;
+    padding: 12px;
+}
+
+.chatHeader {
+    margin-left: 70px;
+    padding: 0 12px;
+    padding-top: 10px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.chatHeader span {
+    float: right;
+    font-family: 'Ubuntu', sans-serif;
+    margin-right: 22px;
+}
+
+#user {
+    padding-top: 12px;
+}
+
+.clicked {
+    margin-right: 70%;
+}
+
+.listProfile {
+    list-style-type: none;
+}
+
+.fa {
+    border: 1px solid var(--color-black);
+    padding: 9px;
+    border-radius: 54%;
+}
+
+.listProfile li span {
+    font-size: 28px;
+    padding-left: 2%;
+}
