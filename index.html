@@ -22,11 +22,11 @@
 
     <hr>
 
-    <section class="" id="chatList">
-        <div>
+    <section class="clicked" id="chatList">
+        <div class="listOfUser">
             <div class="userlist">
                 <ul class=listProfile>
-                    <li onclick="myfunct()" id="nandan">
+                    <li onclick="myfunctNandan()" class="click" id="nandan">
                         <i class="fa fa-user fa-lg" aria-hidden="true"></i> <span>Nandan Shukla</span>
                     </li>
                 </ul>
@@ -36,7 +36,7 @@
 
             <div class="userlist">
                 <ul class=listProfile>
-                    <li onclick="myfunct()" id="aniket">
+                    <li onclick="myfunctAniket()" class="click" id="aniket">
                         <i class="fa fa-user fa-lg" aria-hidden="true"></i> <span>Aniket Nadkarni</span>
                     </li>
                 </ul>
@@ -46,7 +46,7 @@
 
             <div class="userlist">
                 <ul class=listProfile>
-                    <li onclick="myfunct()" id="mohit">
+                    <li onclick="myfunctMohit()" class="click" id="mohit">
                         <i class="fa fa-user fa-lg" aria-hidden="true"></i> <span>Mohit Shah</span>
                     </li>
                 </ul>
@@ -56,7 +56,7 @@
 
             <div class="userlist">
                 <ul class=listProfile>
-                    <li onclick="myfunct()" id="aryan">
+                    <li onclick="myfunctAryan()" class="click" id="aryan">
                         <i class="fa fa-user fa-lg" aria-hidden="true"></i> <span>Aryan Sheth</span>
                     </li>
                 </ul>
@@ -66,13 +66,28 @@
 
             <div class="userlist">
                 <ul class=listProfile>
-                    <li onclick="myfunct()" id="mann">
+                    <li onclick="myfunctMann()" class="click" id="mann">
                         <i class="fa fa-user fa-lg" aria-hidden="true"></i> <span>Mann Shah</span>
                     </li>
                 </ul>
             </div>
 
             <hr>
+        </div>
+    </section>
+
+    <section id="message-me">
+        <div class="message-workspace">
+            <nav class="message-navigation">
+                <i class="fa fa-user fa-2x myIcon" aria-hidden="true"></i><span class="profile">Nandan</span>
+                <span class="profile-option"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></span>
+            </nav>
+
+            <hr>
+
+            <div class="message-div">
+                <i class="fa fa-paperclip" aria-hidden="true"></i><input class="send-message"><i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+            </div>
         </div>
     </section>
 

@@ -7,6 +7,7 @@ body {
 
 :root {
     --color-black: rgb(0, 0, 0);
+    --color-white: rgb(255, 255, 255);
 }
 
 .navigation {
@@ -38,20 +39,70 @@ body {
 }
 
 .clicked {
-    margin-right: 70%;
+    width: 30%;
+    float: left;
+    margin-left: 0;
 }
 
 .listProfile {
     list-style-type: none;
 }
 
+.chatWorkspace {
+    float: left;
+}
+
+.listOfUser {
+    margin-left: 0;
+}
+
 .fa {
-    border: 1px solid var(--color-black);
     padding: 9px;
     border-radius: 54%;
 }
 
 .listProfile li span {
-    font-size: 28px;
+    font-size: 18px;
     padding-left: 2%;
+}
+
+.message-workspace nav .profile {
+    font-size: 36px;
+    padding: 4px 14px;
+}
+
+.message-workspace nav .profile-option {
+    float: right;
+}
+
+.message-workspace {
+    border: 1px solid var(--color-black);
+    float: left;
+    width: 65%;
+    height: 420px;
+}
+
+.message-navigation {
+    padding: 10px;
+}
+
+.myIcon {
+    border-radius: 50%;
+}
+
+.message-div {
+    text-align: center;
+    align-items: baseline;
+    display: flex;
+    position: relative;
+    display: block;
+    bottom: 0;
+    top: 72%;
+}
+
+.send-message {
+    margin-bottom: 0;
+    width: 90%;
+    height: 20px;
+    border-radius: 5px;
 }
