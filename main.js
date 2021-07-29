@@ -29,7 +29,6 @@ function myfunctAniket() {
 }
 
 function myfunctMohit() {
-
     const me = document.querySelector("#profile").innerHTML = "Mohit Shah"
 }
 
